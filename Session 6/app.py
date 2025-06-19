@@ -20,5 +20,9 @@ def evaluate(n1):
 def employee():
     return render_template('employee.html',title='Employee',emps=employee_data)
 
+@app.route('/intern')
+def intern():
+    return render_template('intern.html',title='Interns',emps=employee_data)
+
 if __name__ == '__main__':
     app.run(debug=True)

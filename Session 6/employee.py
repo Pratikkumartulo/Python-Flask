@@ -2,7 +2,7 @@ employee_data = {
     1:{
         'name':'Pratik',
         'age':20,
-        'position': "Director"
+        'position': "Intern"
     },
     2:{
         'name':'John',
@@ -12,7 +12,7 @@ employee_data = {
     3:{
         'name':'Alice',
         'age':25,
-        'position': "Developer"
+        'position': "Intern"
     },
     4:{
         'name':'Bob',
@@ -23,5 +23,30 @@ employee_data = {
         'name':'Charlie',
         'age':35,
         'position': "Analyst"
+    },
+    6:{
+        'name':'Diana',
+        'age':27,
+        'position': "Intern"
+    },
+    7:{
+        'name':'Ethan',
+        'age':32,
+        'position': "Team Lead"
+    },
+    8:{
+        'name':'Fiona',
+        'age':29,
+        'position': "QA Engineer"
+    },
+    9:{
+        'name':'George',
+        'age':24,
+        'position': "Intern"
+    },
+    10:{
+        'name':'Helen',
+        'age':31,
+        'position': "Product Owner"
     },
 }
