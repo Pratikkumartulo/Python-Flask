@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h2>Eval Page</h2>
+    <h3>The number is : {{num}}</h3>
+    {% if num % 2== 0 %}
+        <h3 class="even">The number is even</h3>
+    {% else %}
+        <h3 class="odd">{{num}} is odd</h3>
+    {% endif %}
+{% endblock content %}

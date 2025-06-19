@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        .even{
+            color: blue;
+        }
+        .odd{
+            color:red;
+        }
+        table {
+        border-collapse: collapse;
+        width: 70%;
+        margin: 30px auto;
+        background: #fff;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        border-radius: 10px;
+        overflow: hidden;
+        }
+        th, td {
+            padding: 14px 22px;
+            text-align: left;
+        }
+        th {
+            background: linear-gradient(90deg, #f76b1c 60%, #fda085 100%);
+            color: #fff;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        tr:hover {
+            background: #ffe0c2;
+            transition: background 0.2s;
+        }
+        td {
+            color: #333;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is {{title}} page</h1>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
