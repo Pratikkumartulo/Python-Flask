@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <form action="" method="POST">
+        <div>
+            {{form.email.label}}
+            {{form.email}}
+        </div>
+        <br>
+        <div>
+            {{form.password.label}}
+            {{form.password}}
+        </div>
+        <br>
+        <div>
+            {{form.remember_me.label}}
+            {{form.remember_me}}
+        <div>
+            {{form.submit()}}
+        </div>
+    </form>
+
+{% endblock content %}
